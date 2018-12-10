@@ -8,6 +8,7 @@ var indexRouter   = require('./routes/index');
 var usersRouter   = require('./routes/users');
 var catalogRouter = require('./routes/catalog');
 
+
 //Set up mongoose connection
 var mongoose = require('mongoose');
 var mongoDB = 'mongodb://127.0.0.1:27017/local_library';
